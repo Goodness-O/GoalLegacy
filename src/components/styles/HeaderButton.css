@@ -1,0 +1,26 @@
+.header-button {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  
+  .header-button p {
+    margin-left: 6px;
+  }
+  
+  .active {
+    color: #ffd700;
+  }
+  
+  .active::before {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background: #ffd700;
+  }
+  
